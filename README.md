@@ -4,7 +4,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig1.jpg" width="700">
+<img src="docs/fig1.jpg" width="600">
 
 
 
@@ -18,7 +18,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig2.png" width="700">
+<img src="docs/fig2.png" width="600">
 
 
 
@@ -44,7 +44,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig3.png" width="500">
+<img src="docs/fig3.png" width="600">
 
 <img src="docs/fig4.png" width="600">
 
@@ -61,7 +61,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig5.png" width="700">
+<img src="docs/fig5.png" width="600">
 
 
 
@@ -92,23 +92,85 @@ The beam was tested on a lab rig with a load cell and a digital dial indicator (
 
 
 
-| | Analytical | FEA | Measured |
+<table>
 
-|---|---|---|---|
+&#x20; <thead>
 
-| Deflection at load point, 250 N | 7.26 mm | 6.13 mm | 6.74 mm |
+&#x20;   <tr>
 
-| Peak tensile stress, 250 N | 15.4 MPa | 14.7 MPa | n/a |
+&#x20;     <th></th>
 
-| Safety factor (38 MPa limit) | 2.47 | 2.59 | n/a |
+&#x20;     <th>Analytical</th>
 
-| Ultimate load | 617 N (predicted) | 647 N (predicted) | Fracture at 739 N |
+&#x20;     <th>FEA</th>
+
+&#x20;     <th>Measured</th>
+
+&#x20;   </tr>
+
+&#x20; </thead>
+
+&#x20; <tbody>
+
+&#x20;   <tr>
+
+&#x20;     <td>Deflection at load point, 250 N</td>
+
+&#x20;     <td>7.26 mm</td>
+
+&#x20;     <td>6.13 mm</td>
+
+&#x20;     <td>6.74 mm</td>
+
+&#x20;   </tr>
+
+&#x20;   <tr>
+
+&#x20;     <td>Peak tensile stress, 250 N</td>
+
+&#x20;     <td>15.4 MPa</td>
+
+&#x20;     <td>14.7 MPa</td>
+
+&#x20;     <td>n/a</td>
+
+&#x20;   </tr>
+
+&#x20;   <tr>
+
+&#x20;     <td>Safety factor (38 MPa limit)</td>
+
+&#x20;     <td>2.47</td>
+
+&#x20;     <td>2.59</td>
+
+&#x20;     <td>n/a</td>
+
+&#x20;   </tr>
+
+&#x20;   <tr>
+
+&#x20;     <td>Ultimate load</td>
+
+&#x20;     <td>617 N<br>(predicted)</td>
+
+&#x20;     <td>647 N<br>(predicted)</td>
+
+&#x20;     <td>Fracture at 739 N</td>
+
+&#x20;   </tr>
+
+&#x20; </tbody>
+
+</table>
 
 
 
 The 6.74 mm figure is the reading at 250 N minus the 0.11 mm initial offset of the dial (raw reading 6.85 mm). Deflection then grew in proportion to load: 17.74 mm at 655 N and 20.09 mm at 739 N, with less than 1% change in compliance (mm per N) from 250 N to fracture. Fracture was abrupt and occurred at several locations, as expected for a brittle composite.
 
 
+
+<img src="docs/gif1.gif" width="600">
 
 <img src="docs/fig8.jpg" width="600">
 
