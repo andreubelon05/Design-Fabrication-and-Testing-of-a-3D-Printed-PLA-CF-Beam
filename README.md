@@ -1,6 +1,6 @@
 # Design Fabrication and Testing of a 3D Printed PLA CF Beam
 
-For this university project the goal was to design and build a 500 mm stepped beam that had to carry 250 N past two obstacles with a safety factor between 1.5 and 2.5. We (two team members) sized it analytically, checked it with FEA, printed it in carbon-fibre-filled PLA, and loaded it to failure. The measured deflection at nominal load (6.74 mm) fell between the FEA (6.13 mm) and analytical (7.26 mm) predictions, and the beam fractured at 739 N: 2.96 times the nominal load and above the 617 to 647 N we had predicted.
+For this university project the goal was to design and build a 500 mm stepped beam that had to carry 250 N past two obstacles with a safety factor between 1.5 and 2.5. We (two-member team) sized it analytically, checked it with FEA, printed it in carbon-fibre-filled PLA, and loaded it to failure. The measured deflection at nominal load (6.74 mm) fell between the FEA (6.13 mm) and analytical (7.26 mm) predictions, and the beam fractured at 739 N: 2.96 times the nominal load and above the 617 to 647 N we had predicted.
 
 
 
