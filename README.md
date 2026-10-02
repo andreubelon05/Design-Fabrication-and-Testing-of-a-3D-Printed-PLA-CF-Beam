@@ -102,7 +102,7 @@ The beam was tested on a lab rig with a load cell and a digital dial indicator (
 
 | Safety factor (38 MPa limit) | 2.47 | 2.59 | n/a |
 
-| Ultimate load | 617 N<br>(predicted) | 647 N<br>(predicted) | Fracture at 739 N |
+| Ultimate load | 617 N (predicted) | 647 N (predicted) | Fracture at 739 N |
 
 
 
