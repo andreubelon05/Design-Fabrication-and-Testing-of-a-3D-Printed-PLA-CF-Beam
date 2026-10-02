@@ -192,5 +192,5 @@ The 6.74 mm figure is the reading at 250 N minus the 0.11 mm initial offset of t
 
 
 
-Skills and tools: structural analysis (internal forces, Navier and Rankine, Castigliano), FEA and CAD in SolidWorks, material selection with Ashby charts, design for FDM, PLA-CF printing, experimental testing and model validation, cost analysis.
+**Skills and tools**: structural analysis (internal forces, Navier and Rankine, Castigliano), FEA and CAD in SolidWorks, material selection with Ashby charts, design for FDM, PLA-CF printing, experimental testing and model validation, cost analysis.
 
