@@ -18,7 +18,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig2.jpg" width="700">
+<img src="docs/fig2.png" width="700">
 
 
 
@@ -26,15 +26,15 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-\*\*Centerline.\*\* We compared a shallow 35.5° diagonal against a 90° step. Both give the same critical bending moment (27.95 N·m, at the load point), so the decision came down to gentler direction changes (less stress concentration) and material: for the same section, the diagonal needs about 13% less volume (163 vs 187 cm³).
+**Centerline**. We compared a shallow 35.5° diagonal against a 90° step. Both give the same critical bending moment (27.95 N·m, at the load point), so the decision came down to gentler direction changes (less stress concentration) and material: for the same section, the diagonal needs about 13% less volume (163 vs 187 cm³).
 
 
 
-\*\*Material.\*\* Using Ashby charts (stiffness, strength and cost against density), we ruled out pine (too weak for its density) and steel or aluminium (more cost, more lead time, dependence on an outside workshop). We chose Bambu Lab PLA-CF (ρ = 1.22 g/cm³, E = 2790 MPa, 38 MPa yield strength in the print plane) over plain PLA for notably better stiffness and strength at nearly the same density. Because it is brittle and its tensile and compressive strengths differ, we used Rankine's criterion. The datasheet gives no compressive strength, so we estimated 43.7 MPa (15% above tensile) from a published study.
+**Material**. Using Ashby charts (stiffness, strength and cost against density), we ruled out pine (too weak for its density) and steel or aluminium (more cost, more lead time, dependence on an outside workshop). We chose Bambu Lab PLA-CF (ρ = 1.22 g/cm³, E = 2790 MPa, 38 MPa yield strength in the print plane) over plain PLA for notably better stiffness and strength at nearly the same density. Because it is brittle and its tensile and compressive strengths differ, we used Rankine's criterion. The datasheet gives no compressive strength, so we estimated 43.7 MPa (15% above tensile) from a published study.
 
 
 
-\*\*Cross-section.\*\* Three iterations:
+**Cross-section**. Three iterations:
 
 
 
@@ -44,9 +44,9 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig3.jpg" width="500">
+<img src="docs/fig3.png" width="500">
 
-<img src="docs/fig4.jpg" width="600">
+<img src="docs/fig4.png" width="600">
 
 
 
@@ -61,7 +61,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig5.jpg" width="700">
+<img src="docs/fig5.png" width="700">
 
 
 
@@ -76,9 +76,9 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig6.jpg" width="600">
+<img src="docs/fig6.png" width="600">
 
-<img src="docs/fig7.jpg" width="600">
+<img src="docs/fig7.png" width="600">
 
 
 
@@ -122,11 +122,11 @@ The 6.74 mm figure is the reading at 250 N minus the 0.11 mm initial offset of t
 
 
 
-* \*\*Optimised sections converge on standard ones.\*\* Our custom section ended up close to a standard I-beam, so tabulated profiles are usually the efficient choice.
-* \*\*Manufacturing drove the architecture.\*\* The printer's build volume, not the mechanics, forced the split beam and joint design. Manufacturing limits belong in the first design step.
-* \*\*Cross-checking two models paid off.\*\* Analytical and FEA stresses agreed within 5%, and the measured deflection fell between the two deflection predictions.
-* \*\*The design was conservative.\*\* Failure at 739 N is 14 to 20% above the predicted ultimate load. A back-calculation from the linear response puts the peak tensile stress at fracture at roughly 43 to 46 MPa, against the 38 MPa datasheet value used for design.
-* \*\*Limits of the work.\*\* The compressive strength was estimated from literature, not tested. The test instrumented load and load-point deflection only, so obstacle clearance rests on the calculated 13.75 mm margin.
+* **Optimised sections converge on standard ones**. Our custom section ended up close to a standard I-beam, so tabulated profiles are usually the efficient choice.
+* **Manufacturing drove the architecture**. The printer's build volume, not the mechanics, forced the split beam and joint design. Manufacturing limits belong in the first design step.
+* **Cross-checking two models paid off**. Analytical and FEA stresses agreed within 5%, and the measured deflection fell between the two deflection predictions.
+* **The design was conservative**. Failure at 739 N is 14 to 20% above the predicted ultimate load. A back-calculation from the linear response puts the peak tensile stress at fracture at roughly 43 to 46 MPa, against the 38 MPa datasheet value used for design.
+* **Limits of the work**. The compressive strength was estimated from literature, not tested. The test instrumented load and load-point deflection only, so obstacle clearance rests on the calculated 13.75 mm margin.
 
 
 
