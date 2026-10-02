@@ -4,7 +4,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig1.jpg" width="600">
+<img src="docs/fig1.jpg" width="800">
 
 
 
@@ -18,7 +18,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig2.png" width="600">
+<img src="docs/fig2.png" width="800">
 
 
 
@@ -44,9 +44,9 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig3.png" width="600">
+<img src="docs/fig3.png" width="800">
 
-<img src="docs/fig4.png" width="600">
+<img src="docs/fig4.png" width="800">
 
 
 
@@ -61,7 +61,7 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig5.png" width="600">
+<img src="docs/fig5.png" width="800">
 
 
 
@@ -76,9 +76,9 @@ For this university project the goal was to design and build a 500 mm stepped be
 
 
 
-<img src="docs/fig6.png" width="600">
+<img src="docs/fig6.png" width="800">
 
-<img src="docs/fig7.png" width="600">
+<img src="docs/fig7.png" width="800">
 
 
 
@@ -170,11 +170,11 @@ The 6.74 mm figure is the reading at 250 N minus the 0.11 mm initial offset of t
 
 
 
-<img src="docs/gif1.gif" width="600">
+<img src="docs/gif1.gif" width="800">
 
-<img src="docs/fig8.jpg" width="600">
+<img src="docs/fig8.jpg" width="800">
 
-<img src="docs/fig9.jpg" width="600">
+<img src="docs/fig9.jpg" width="800">
 
 
 
